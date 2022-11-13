@@ -1,0 +1,11 @@
+node_modules
+.env
+package-lock.json
+
+server/controllers/codeTemplates
+
+server/controllers/codeTemplate/client/src/package.json
+server/controllers/codeTemplate/client/src/index.js
+server/controllers/codeTemplate/server/package.json
+server/controllers/codeTemplate/server/template1.js
+

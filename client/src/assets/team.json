@@ -1,0 +1,39 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Uri",
+      "position": ["Fullstack Web Dev"],
+      "image": "../assets/images/uri.png",
+      "linkedin": "https://www.linkedin.com/in/uri-eskenasy-ab2680231/"
+    },
+    {
+      "id": 2,
+      "name": "Zhuo",
+      "position": ["Fullstack Web Dev"],
+      "image": "../assets/images/zhuo.png",
+      "linkedin": "https://www.linkedin.com/in/zhuo-yang-3881869b/"
+    },
+    {
+      "id": 3,
+      "name": "Franko",
+      "position": ["Fullstack Web Dev"],
+      "image": "../assets/images/franko.png",
+      "linkedin": "https://www.linkedin.com/in/franko-safradin-4a319b249/"
+    },
+    {
+      "id": 4,
+      "name": "Samuel",
+      "position": ["Fullstack Web Dev"],
+      "image": "../assets/images/samuel.png",
+      "linkedin": "https://www.linkedin.com/in/samuelcglantz/"
+    },
+    {
+      "id": 5,
+      "name": "Aurrel",
+      "position": ["Fullstack Web Dev"],
+      "image": "../assets/images/aurrel.png",
+      "linkedin": "https://www.linkedin.com/in/aurrelkondi/"
+    }
+  ]
+}

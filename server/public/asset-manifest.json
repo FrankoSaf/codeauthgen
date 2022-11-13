@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.664f5fff.css",
+    "main.js": "/static/js/main.69da4a4e.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/step-5.png": "/static/media/step-5.fda1a0f17e9ebe53d4cd.png",
+    "static/media/Proxima Nova Font.otf": "/static/media/Proxima Nova Font.7bc9ce404c297c24f210.otf",
+    "static/media/step-2.png": "/static/media/step-2.d2f65820481d9ca654d8.png",
+    "static/media/errorPage.png": "/static/media/errorPage.7e9fe1ffea247375bc1d.png",
+    "static/media/step-1.png": "/static/media/step-1.47da59f06feb1d60ccfb.png",
+    "static/media/step-3.png": "/static/media/step-3.240280602403f59bcd81.png",
+    "static/media/step-4.png": "/static/media/step-4.a05c06840ec76722e511.png",
+    "index.html": "/index.html",
+    "main.664f5fff.css.map": "/static/css/main.664f5fff.css.map",
+    "main.69da4a4e.js.map": "/static/js/main.69da4a4e.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.664f5fff.css",
+    "static/js/main.69da4a4e.js"
+  ]
+}

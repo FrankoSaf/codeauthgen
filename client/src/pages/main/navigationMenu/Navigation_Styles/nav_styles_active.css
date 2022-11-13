@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Luckiest+Guy&family=Righteous&display=swap");
+/* above logo font family link */
+
+/* .active {
+  border: var(--textColor) solid 1px;
+  box-shadow: 0 0 5px#65d4d1;
+  padding: 5px 5px;
+  font-size: larger;
+} */
+
+.navBar-Logo-FF1 > div {
+  /* logo font family */
+  font-family: "Alfa Slab One", cursive;
+}

@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
+#nameInputDark {
+  position: relative;
+  z-index: 1;
+}
+#nameInputLight {
+  position: relative;
+  z-index: 1;
+}
+#nameInputDark::after {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 15px;
+  content: "TYPE A NAME";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#nameInputLight::after {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 15px;
+  content: "TYPE A NAME";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#project_descriptionDark {
+  position: relative;
+  z-index: 1;
+}
+#project_descriptionDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 180px;
+  height: 15px;
+  content: "PROJECT DESCRIPTION";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#project_descriptionLight {
+  position: relative;
+  z-index: 1;
+}
+#project_descriptionLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 180px;
+  height: 15px;
+  content: "PROJECT DESCRIPTION";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#project_authorDark {
+  position: relative;
+  z-index: 1;
+}
+#project_authorDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 140px;
+  height: 15px;
+  content: "PROJECT AUTHOR";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#project_authorLight {
+  position: relative;
+  z-index: 1;
+}
+#project_authorLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 140px;
+  height: 15px;
+  content: "PROJECT AUTHOR";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#project_licenseDark {
+  position: relative;
+  z-index: 1;
+}
+#project_licenseDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 140px;
+  height: 15px;
+  content: "PROJECT LICENSE";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#project_licenseLight {
+  position: relative;
+  z-index: 1;
+}
+#project_licenseLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 140px;
+  height: 15px;
+  content: "PROJECT LICENSE";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#secretKeyDark {
+  position: relative;
+  z-index: 1;
+}
+#secretKeyDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 15px;
+  content: "SECRET KEY";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#secretKeyLight {
+  position: relative;
+  z-index: 1;
+}
+#secretKeyLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 15px;
+  content: "SECRET KEY";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#expireTimeDark {
+  position: relative;
+  z-index: 1;
+}
+#expireTimeDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 15px;
+  content: "EXPIRE TIME";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#expireTimeLight {
+  position: relative;
+  z-index: 1;
+}
+#expireTimeLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 15px;
+  content: "EXPIRE TIME";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#portDark {
+  position: relative;
+  z-index: 1;
+}
+#portDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 15px;
+  content: "PORT";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#portLight {
+  position: relative;
+  z-index: 1;
+}
+#portLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 15px;
+  content: "PORT";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#frontendOriginDark {
+  position: relative;
+  z-index: 1;
+}
+#frontendOriginDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 150px;
+  height: 15px;
+  content: "FRONTEND ORIGIN";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#frontendOriginLight {
+  position: relative;
+  z-index: 1;
+}
+#frontendOriginLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 150px;
+  height: 15px;
+  content: "FRONTEND ORIGIN";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#backendOriginDark {
+  position: relative;
+  z-index: 1;
+}
+#backendOriginDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 140px;
+  height: 15px;
+  content: "BACKEND ORIGIN";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#backendOriginLight {
+  position: relative;
+  z-index: 1;
+}
+#backendOriginLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 140px;
+  height: 15px;
+  content: "BACKEND ORIGIN";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#mongodbURIDark {
+  position: relative;
+  z-index: 1;
+}
+#mongodbURIDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 15px;
+  content: "MONGO DB URI";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+#mongodbURILight {
+  position: relative;
+  z-index: 1;
+}
+#mongodbURILight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 15px;
+  content: "MONGO DB URI";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#hostDark {
+  position: relative;
+  z-index: 1;
+}
+
+#hostDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 15px;
+  content: "HOST";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#hostLight {
+  position: relative;
+  z-index: 1;
+}
+
+#hostLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 15px;
+  content: "HOST";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#userDark {
+  position: relative;
+  z-index: 1;
+}
+
+#userDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 15px;
+  content: "USER";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#userLight {
+  position: relative;
+  z-index: 1;
+}
+
+#userLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 15px;
+  content: "USER";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#passDark {
+  position: relative;
+  z-index: 1;
+}
+
+#passDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 90px;
+  height: 15px;
+  content: "PASSWORD";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#passLight {
+  position: relative;
+  z-index: 1;
+}
+
+#passLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 90px;
+  height: 15px;
+  content: "PASSWORD";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#senderEmailDark {
+  position: relative;
+  z-index: 1;
+}
+
+#senderEmailDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 15px;
+  content: "SENDER EMAIL";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#senderEmailLight {
+  position: relative;
+  z-index: 1;
+}
+
+#senderEmailLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 15px;
+  content: "SENDER EMAIL";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#project_nameDark {
+  position: relative;
+  z-index: 1;
+}
+#project_nameDark::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 15px;
+  content: "PROJECT NAME";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--backgroundColor);
+  color: var(--lightBackgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+
+#project_nameLight {
+  position: relative;
+  z-index: 1;
+}
+#project_nameLight::after {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 15px;
+  content: "PROJECT NAME";
+  font-size: 12px;
+  letter-spacing: 2px;
+  background: var(--lightBackgroundColor);
+  color: var(--backgroundColor);
+  z-index: 100;
+  text-align: center;
+}
+.editor-on {
+  opacity: 1;
+  transition: 0.5s ease all;
+  animation: editorOn 0.5s 1;
+}
+@keyframes editorOn {
+  0% {
+    transform: translateX(-100px) translateX(25px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
